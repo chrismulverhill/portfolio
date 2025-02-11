@@ -1,0 +1,39 @@
+---
+title: "Example Projects"
+format: html
+editor: visual
+---
+
+# Continuous Update of Forest Inventory Maps
+
+Many forested areas around the world have [generated detailed maps](https://doi.org/10.5558/tfc2013-132) of forest attributes using airborne LiDAR data and field plot measurements. However, these maps are static and only represent the forest conditions at the time of data acquisition. If these maps aren't updated, any management decisions made from them are outdated and could have adverse consequences.
+
+![](images/cfi-paper/fig1.jpg){fig-align="center" width="700"}
+
+In [this paper](https://doi.org/10.1093/forestry/cpae029), I led a project which aimed to update forest inventory maps of attributes like height, biomass, and canopy cover. To do this, I generated a time series of satellite imagery and constructed a series of metrics relating satellite spectral indices to forest conditions. At each time step, the metrics describe the past year of satellite imagery, so model predictions can be run at any time of year and can characterize a variety of forest changes (below).
+
+![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/forestry/PAP/10.1093_forestry_cpae029/1/cpae029f3.jpeg?Expires=1742320664&Signature=PXOzb7pugDr~UTvo5HOG8tYXqXk8IidXQj8QiW2peB4LNWjyqPA05ynNkFhbbiVgKSEKjlwUOIHqZDEWJ-ThWLe4ee0YhXTLuNdFJB4BaenNZFZoDIf1LrMelErPM373hYpY-TKzxpIuKuAkYBjSiWVBefU-RyXQ-t4mfCeW2x3NS3lgXznrTUQjFDkfIB3MLVJbphAzUEMYA0o3h~aT7IMnSpXq94JlbUT22brA2uUmh2Jmah4THfpQJNqdvJerIuQGzuvX4R6g6ZkQbdmtRXYftkDZrrVf7PFuQaK0y~js5vFGxoT-eOggDo32Cmc7thXf-fjqDHJmmPUlmSFh7w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){fig-align="center" width="700"}
+
+This work demonstrated a method for continuous update of forest inventory maps, and did so across a large (690,000 ha) forest management area in Ontario, Canada. Changes in forest canopy cover can be seen in this area (\~25 km^2^) of partial harvesting:
+
+![](images/cfi-paper/fig3.gif){fig-align="center" width="700"}
+
+Additionally, all attributes can be tracked through time to characterize different types of forest changes:
+
+![](images/cfi-paper/fig2.jpg){fig-align="center" width="700"}
+
+# Wildfire Probability Across Canada
+
+Wildfires in Canada have increased in size and intensity in recent decades, prompting some to call intense wildfires "[unstoppable](https://www.nytimes.com/2023/06/17/world/americas/canada-wildfires-season.html)". However, the threat of fire can be addressed by leveraging currently underutilized information sources (as pointed out in my co-authored [Nature](https://doi.org/10.1038/d41586-024-02919-z) article) - Indigenous-led stewardship and remotely sensed data.
+
+Satellite-derived data can tell us a lot about forests - for example, the type of forest, the dates of any change, or the canopy cover of an area. If we combine all of this information, can we make predictions of areas of known fire? Doing so would allow those in government or industries to be able to prescribe proactive forest treatments (like prescribed burning or thinning) and allocate active-fire resources (like personnel) based on need. [This paper](https://doi.org/10.1016/j.isprsjprs.2024.02.006) aimed to generate spatial predictions of wildfire burn probability based on a time series of satellite predictors and machine learning techniques.
+
+![](images/fire-paper/f1-workflow.jpg){fig-align="center" width="700"}
+
+The models generated predictions for each 30x30m cell across all forested areas in Canada (\~367 million ha) and showed high correspondence with known burned areas - here, for 2018:
+
+![](images/fire-paper/f2-map.jpg){fig-align="center" width="700"}
+
+For each year tested (1994-2020), models were trained on all years other than the one of interest, thereby giving confidence in application of the model to future time periods. For example, these are model predictions and known fire locations for the area near Great Slave Lake (Northwest Territories, Alberta, and Saskatchewan) in 2018:
+
+![](images/fire-paper/f3-gif.gif)

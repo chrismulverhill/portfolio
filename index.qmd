@@ -16,4 +16,4 @@ about:
       href: mailto:chrismulverhill@gmail.com
 ---
 
-I'm a passionate forest scientist with years of experience applying innovative techniques to solving complex environmental challenges. My experience spans a wide range of applications such as wildfire risk, forest inventory, natural climate solutions, and more. My proficiencies include the integration of large geospatial and field-based datasets, as well as communicating effectively to both technical and non-technical audiences.
+I'm a passionate environmental scientist with years of experience applying innovative techniques to solving complex global challenges. My experience spans a wide range of applications such as wildfire risk, forest inventory, natural climate solutions, and more. I'm proficient in numerous areas, including the integration of large geospatial and field-based datasets, as well as communicating effectively to both technical and non-technical audiences.
