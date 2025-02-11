@@ -1,0 +1,79 @@
+---
+title: "Resume"
+---
+
+# Professional Experience
+
+### [Research Fellow]{.underline} 
+
+##### *University of British Columbia* 
+
+###### *Vancouver, BC, Canada* 
+
+-   Coordinated and performed research to advise a variety of stakeholders on complex forest management issues – including near-real time detection of forest change, quantifying forest attribute change, and wildfire risk modeling
+-   Conducted monitoring, reporting, and verification of forest inventory projects, including methodological development and implementation in response to stakeholder consultations
+-   Participated in generating data-driven solutions across complex forested environments, as a sole contributor, a leader of a diverse team, and a member of a large, nationwide network
+
+### [Postdoctoral Researcher]{.underline} 
+
+##### *NASA Jet Propulsion Laboratory* 
+
+###### *Pasadena, CA, USA* 
+
+-   Collaborated internationally and within a large structured organization to generate calibration and validation datasets for the biomass product of the NISAR satellite
+-   Advised collaborators on challenges and opportunities on quantifying and managing carbon, using both geospatial data and field work
+
+### [Graduate Research Assistant]{.underline} 
+
+##### *University of British Columbia* 
+
+###### *Vancouver, BC, Canada* 
+
+-   Developed opportunities for integration of geospatial data (LiDAR, photogrammetry) into forest inventory and management by analyzing large and diverse data streams
+-   Applied knowledge of ecological processes to assess relationships with forest management techniques
+-   Communicated outcomes to partners in industry, government, and academia by presenting and collaborating a range of technical and non-technical issues
+
+# Education
+
+-   Doctor of Philosophy in Forestry - University of British Columbia, 2020
+    -   *Dissertation title: “Using three-dimensional point clouds to improve characterizations of forest structure across spatial and temporal scales in mixedwood forest stands”*
+-   Bachelor's of Science in Environmental Science - University of Oregon, 2016
+
+# Selected publications
+
+*For full list, go to "Publications" tab*
+
+[**Mulverhill, C.**]{.underline}, Coops, N.C., Boulanger, Y., Hoffman, K. M. Cardinal Christianson, A., Daniels, L. D., Flamand-Hubert, M., Wotherspoon, A. R., & Achim, A. (2024). Wildfires are spreading fast in Canada - here's how to strengthen forests for the future. Nature. <https://doi.org/10.1038/d41586-024-02919-z>
+
+du Toit, F., Coops, N. C., [**Mulverhill, C.**]{.underline}, & Toomey, A. (2024). Assessing the impact of afforestation as a natural climate solution in the Canadian boreal. Environmental Research: Ecology. <http://dx.doi.org/10.1088/2752-664X/ad67e6>
+
+[**Mulverhill, C.**]{.underline}, Coops, N. C., White, J. C., Tompalski, P., & Achim, A. (2024). Evaluating the potential for continuous update of enhanced forest inventory attributes using optical satellite data. Forestry: An International Journal of Forest Research. <https://doi.org/10.1093/forestry/cpae029>
+
+[**Mulverhill, C.**]{.underline}, Coops, N. C., & Achim, A. (2023). Continuous monitoring and sub-annual change detection in high-latitude forests using Harmonized Landsat Sentinel-2 data. ISPRS Journal of Photogrammetry and Remote Sensing, 197, 309-319. <https://doi.org/10.1016/j.isprsjprs.2023.02.002>
+
+Coops, N. C., Tompalski, P., Goodbody, T. R., Achim, A., & [**Mulverhill, C.**]{.underline} (2022). Framework for near real-time forest inventory using multi source remote sensing data. Forestry: An International Journal of Forest Research. <https://doi.org/10.1093/forestry/cpac015>
+
+# Selected Communications
+
+### Selected Conference Presentations:
+
+-   ForestSAT - Rotorua, New Zealand (Sep. 2024)
+-   NASA/ISRO NISAR Science Team Meeting - Virtual (Jun 2021)
+-   New Frontiers in Forecasting Forests - Stellenbosch, South Africa (Sep 2018)
+
+### Teaching:
+
+*University of British Columbia - Vancouver, BC, Canada:*
+
+-   FRST 556 - Land Information Acquisition and Analysis (Fall 2024)
+-   GEM 511 - Advanced GIS for Environmental Management (Spring 2020)
+
+*Nanjing Forestry University - Nanjing, China:*
+
+-   Introduction to Remote Sensing (Summer 2018)
+
+### Invited Talks
+
+Royal Melbourne Institute of Technology (RMIT) Geomatics Department – Melbourne, Australia – *“Past, present, and future burn probability in Canadian forests”* (Aug 2023)
+
+Western Washington University Environmental Speaker Series – Bellingham, WA, USA – *“Forests in the age of big data: measuring and monitoring Canada’s forests from space”* (Apr 2023)

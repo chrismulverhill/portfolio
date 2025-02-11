@@ -1,0 +1,19 @@
+---
+title: "Chris Mulverhill, PhD"
+image: images/cm_headshot.png
+about:
+  template: trestles
+  image-width: 20em
+  links: 
+    - icon: "{{< ai google-scholar >}}"
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=hr5v7xMAAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/chris-mulverhill
+    - icon: envelope-at
+      text: Email
+      href: mailto:chrismulverhill@gmail.com
+---
+
+I'm a passionate forest scientist with years of experience applying innovative techniques to solving complex environmental challenges. My experience spans a wide range of applications such as wildfire risk, forest inventory, natural climate solutions, and more. My proficiencies include the integration of large geospatial and field-based datasets, as well as communicating effectively to both technical and non-technical audiences.
