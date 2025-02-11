@@ -12,8 +12,6 @@ website:
         text: Resume
       - href: publications.qmd
         text: Publications
-      - href: content.qmd
-        text: Content & Deliverables
 
 format:
   html:
