@@ -1,3 +1,44 @@
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+if(!require(scholar)) {
+  install.packages("scholar")
+  library(scholar)
+}
+library(tidyverse)
+
+cm.id = "hr5v7xMAAAAJ"
+
+cm.h.index = get_profile(cm.id)$h_index
+
+cm.citations = get_citation_history(cm.id)
+
+cm.pubs = get_publications(cm.id) %>% 
+          group_by(year) %>% 
+          tally() %>% 
+          mutate(cml.sum.pubs = cumsum(n))
+
+var.scale = 5
+pub.color = "seagreen"
+cite.color = "tan4"
+
+left_join(cm.citations, cm.pubs, by = "year") %>% 
+  select(year, cites, cml.sum.pubs) %>% 
+  ggplot(aes(x = year)) +
+  geom_bar(aes(y = cml.sum.pubs), stat = "identity", fill = pub.color) +
+  geom_line(aes(y = cites/var.scale), stat = "identity", color = cite.color, size = 2) +
+  theme_bw() +
+  labs(x = "Year", 
+       title = paste0("Publications by Chris Mulverhill (h-index: ", cm.h.index, ")")) +
+  scale_y_continuous(name = "Total Publications", limits = c(0, 30),
+                     sec.axis = sec_axis(transform = ~ .*var.scale, name = "Annual Citations")) +
+  theme(axis.title.y = element_text(color = pub.color, size=13),
+        axis.text.y = element_text(color = pub.color),
+        axis.title.y.right = element_text(color = cite.color, size=13),
+        axis.text.y.right = element_text(color = cite.color))
+```
+
 *Peer-reviewed publications:*
 
 [**Mulverhill, C.**]{.underline}, Coops, N. C., Boulanger, Y., Hoffman, K. M., Cardinal Christianson, A., Daniels, L. D., ... & Achim, A. (2024). Wildfires are spreading fast in Canada—we must strengthen forests for the future. *Nature*, *633*(8029), 282-285. <https://doi.org/10.1038/d41586-024-02919-z>
